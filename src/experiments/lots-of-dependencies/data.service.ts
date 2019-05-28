@@ -27,8 +27,8 @@ export class DataService{
     }) 
   }
 
-  synchronizeRemoteAndLocalDataSinceLastConnected(){}
   overAMonthSinceLastConnectedToRemoteDb():boolean{return}
+  synchronizeRemoteAndLocalDataSinceLastConnected(){}
   allLocalDataThatHasntBeenUpdatedSinceLastConnected():[]{return []}
   dataItemDoesntExistInRemoteDb(dataItem):boolean{console.log(dataItem);return}
   deleteItem(dataItem){console.log(dataItem);}
